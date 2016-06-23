@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'static_pages_controller/index'
+
+  get 'static_pages_controller/about'
+
+  get 'static_pages_controller/help'
+
+  get 'static_pages_controller/faq'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
