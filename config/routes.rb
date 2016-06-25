@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'static_pages_controller/index'
+
+
+  root to: 'static_pages_controller#index'
 
   get 'static_pages_controller/about'
 

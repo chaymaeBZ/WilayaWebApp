@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.wrapper {
+	margin-top:5.35em;
+
+}

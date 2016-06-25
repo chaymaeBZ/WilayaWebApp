@@ -1,3 +1,91 @@
 // Place all the styles related to the StaticPagesController controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar-inverse {
+	background-color: rgb(2, 11, 27);
+}
+
+.navbar {
+
+	font-size: 15px;
+	font-color: white;
+	width: 100%;
+	
+
+
+	.nav li > a {
+		color: white;
+		padding: 1.8em 5em;
+	}
+
+	#navbar-collapse {
+
+
+	li {
+		a:hover { 	
+    background-color: rgb(27, 201, 88); 
+	}
+
+		
+	
+	
+	}
+	.dropdown-menu{
+		background-color: rgb(2, 11, 27);
+		 a {
+			color: white;}
+		
+	}
+
+}
+}
+
+.navbar-header {
+	padding: 0.8em ;
+}
+
+
+.banner {
+	
+	background: url("http://8020.photos.jpgmag.com/306858_95955_5906fb4276_p.jpg") no-repeat fixed;
+	background-size: cover;
+	min-height: 800px;
+	h1 {
+		padding-top: 6em;
+		font-size: 50px;
+		text-align: center;
+		color: black;
+	}
+	h3 {
+		font-size: 20px;
+		text-align: center;
+		color: dark-grey;
+	}
+}
+.center-margin1{
+	text-align: center;
+	margin-top: 6em;
+}
+
+.btn-secondary {
+	background-color: rgba(114, 114, 114, 0.25);
+	border: 2px solid black;
+	color: dark-grey;
+	padding: 0.5em 1em;
+	font-size: 30px;
+}
+
+
+.btn-secondary:hover {
+	background-color: rgba(114, 114, 114, 0.57);
+	color: black;
+}
+.barre-bleu {
+	width: 100%;
+	background-color: rgb(2, 11, 27);
+	height: 100px;
+}
+.test {
+	min-height:5000px;
+}
+
